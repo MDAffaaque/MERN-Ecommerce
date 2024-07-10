@@ -59,6 +59,6 @@ router.post("/delete-cart-product", authToken, deleteAddToCartProduct);
 router.post("/checkout", authToken, paymentController);
 router.post('/webhook',authToken,webhooks)
 router.get("/order-list",authToken,orderController)
-router.get("/all-order",authToken,allOrderController)
+router.get("/all-orders",authToken,allOrderController)
 
 module.exports = router;
